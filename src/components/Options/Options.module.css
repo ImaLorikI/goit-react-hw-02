@@ -1,0 +1,13 @@
+.button {
+  border: 5px;
+  padding: 20px;
+  background-color: blue;
+  margin-right: 10px;
+  border-radius: 10%;
+  cursor: pointer;
+  transition: 250ms;
+  width: 150px;
+}
+.button:is(:hover, :focus) {
+    background-color: #0077ff;
+}
