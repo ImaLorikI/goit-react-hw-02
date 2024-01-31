@@ -1,5 +1,5 @@
 import css from './Notification.module.css';
 
-export const Notification = () => {
-  return <h2 className={css.Notification}>No feedback yet</h2>;
+export const Notification = ({ massage }) => {
+  return <h2 className={css.Notification}>{massage}</h2>;
 };
